@@ -1,0 +1,55 @@
+#container{
+    margin: 30px auto;
+    width: 300px;
+    border: 3px solid #e7e7e7;
+    border-radius: 3px;
+    background-color: #f7f7f7;
+    overflow: hidden;
+}
+
+#container #display-container {
+    background-color: white;
+    max-width: 100%;
+}
+
+#container #display-container #expression {
+    font-size: 12px;
+    text-align: right;
+    margin: 0;
+    padding: 5px 18px;
+    height: 23.33px;
+}
+
+#container #display-container #display {
+    font-size: 20px;
+    text-align: right;
+    margin: 0;
+    padding: 5px 15px;
+    height: 33.33px;
+}
+
+#container .btn, #container .btn-full {
+    width: 24.26%;
+    height: 65px;
+    float: left;
+    border: 1px solid #e7e7e7;
+    background-color: #f7f7f7;
+    position: relative;
+}
+
+#container .btn-full {
+    width: 99.1%;
+}
+
+#container .btn span, #container .btn-full span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+}
+
+#container .btn:hover, #container .btn-full:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
